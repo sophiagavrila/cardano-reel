@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-> Go to `https://sophiagavrila.github.io/cardano-reel/` to view the project deployed on GithubPages.
+> Go to [`https://sophiagavrila.github.io/cardano-reel/`](https://sophiagavrila.github.io/cardano-reel/) to view the project deployed on GithubPages.
 
 ## Available Scripts
 
