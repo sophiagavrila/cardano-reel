@@ -1,23 +1,26 @@
 {
   "files": {
     "main.css": "/cardano-reel/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/cardano-reel/static/js/main.9fbb451a.chunk.js",
-    "main.js.map": "/cardano-reel/static/js/main.9fbb451a.chunk.js.map",
-    "runtime-main.js": "/cardano-reel/static/js/runtime-main.0e5640c7.js",
-    "runtime-main.js.map": "/cardano-reel/static/js/runtime-main.0e5640c7.js.map",
-    "static/js/2.510c7faa.chunk.js": "/cardano-reel/static/js/2.510c7faa.chunk.js",
-    "static/js/2.510c7faa.chunk.js.map": "/cardano-reel/static/js/2.510c7faa.chunk.js.map",
-    "static/js/3.334698a1.chunk.js": "/cardano-reel/static/js/3.334698a1.chunk.js",
-    "static/js/3.334698a1.chunk.js.map": "/cardano-reel/static/js/3.334698a1.chunk.js.map",
+    "main.js": "/cardano-reel/static/js/main.6e7d9171.chunk.js",
+    "main.js.map": "/cardano-reel/static/js/main.6e7d9171.chunk.js.map",
+    "runtime-main.js": "/cardano-reel/static/js/runtime-main.e977e999.js",
+    "runtime-main.js.map": "/cardano-reel/static/js/runtime-main.e977e999.js.map",
+    "static/css/2.9476aaf5.chunk.css": "/cardano-reel/static/css/2.9476aaf5.chunk.css",
+    "static/js/2.114a94cd.chunk.js": "/cardano-reel/static/js/2.114a94cd.chunk.js",
+    "static/js/2.114a94cd.chunk.js.map": "/cardano-reel/static/js/2.114a94cd.chunk.js.map",
+    "static/js/3.b9623f81.chunk.js": "/cardano-reel/static/js/3.b9623f81.chunk.js",
+    "static/js/3.b9623f81.chunk.js.map": "/cardano-reel/static/js/3.b9623f81.chunk.js.map",
     "index.html": "/cardano-reel/index.html",
+    "static/css/2.9476aaf5.chunk.css.map": "/cardano-reel/static/css/2.9476aaf5.chunk.css.map",
     "static/css/main.8c8b27cf.chunk.css.map": "/cardano-reel/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.510c7faa.chunk.js.LICENSE.txt": "/cardano-reel/static/js/2.510c7faa.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/cardano-reel/static/media/logo.6ce24c58.svg"
+    "static/js/2.114a94cd.chunk.js.LICENSE.txt": "/cardano-reel/static/js/2.114a94cd.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/cardano-reel/static/media/outline-icons.ddae9b1b.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.0e5640c7.js",
-    "static/js/2.510c7faa.chunk.js",
+    "static/js/runtime-main.e977e999.js",
+    "static/css/2.9476aaf5.chunk.css",
+    "static/js/2.114a94cd.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.9fbb451a.chunk.js"
+    "static/js/main.6e7d9171.chunk.js"
   ]
 }
