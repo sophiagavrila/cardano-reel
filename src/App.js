@@ -2,6 +2,8 @@ import React from 'react';
 import { getAdaArticles } from './api';
 import './App.css';
 import { Container, Header } from "semantic-ui-react";
+import ArticleList from './components/ArticleList';
+
 
 
 class App extends React.Component {
@@ -28,11 +30,19 @@ class App extends React.Component {
 
   render() {
 
-    return (
+    const { articles, apiError } = this.state;
 
-      <div>
-        We'll add our code here!
-      </div>
+    return (
+      <Container>
+
+        <Header as="h2" style={{ textAlign: "center", margin: 20 }}>
+          Cardano Articles
+        </Header>
+
+        {articles.length > 0 && <ArticleList articles={articles} />}
+        {apiError && <p>Could not fetch any articles. Please try again.</p>}
+
+      </Container>
     );
   }
 

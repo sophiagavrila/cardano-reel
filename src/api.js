@@ -9,7 +9,9 @@ import { NEWS_API_KEY } from "./config"
 export const getAdaArticles = async () => {
 
     const response = await fetch(
-        `https://newsapi.org/v2/everything?q=cardano&apiKey=${NEWS_API_KEY}`
+        // filtering all articles with Cardaon in body & in english documentation here
+        // https://newsapi.org/docs/endpoints/everything
+        `https://newsapi.org/v2/everything?language=en&q=cardano&apiKey=${NEWS_API_KEY}`
     );
 
     const json = await response.json();
