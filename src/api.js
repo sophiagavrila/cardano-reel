@@ -1,4 +1,4 @@
-import { NEWS_API_KEY; } from "./config"
+import { NEWS_API_KEY } from "./config"
 
 /**
  * We create and export an arrow function export const getBitcoinArticles = async () => {}. 
