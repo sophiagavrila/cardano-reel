@@ -1,5 +1,5 @@
 import React from "react";
-import { List, Grid, Header } from "semantic-ui-react";
+import { Image, List, Grid, Header } from "semantic-ui-react";
 
 const ArticleItem = (props) => {
 
@@ -30,6 +30,10 @@ const ArticleItem = (props) => {
 
                 </List>
 
+            </Grid.Column>
+
+            <Grid.Column width={5}>
+                <Image src={article.urlToImage} />
             </Grid.Column>
 
         </Grid>
