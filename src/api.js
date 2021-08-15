@@ -8,17 +8,11 @@ import { NEWS_API_KEY } from "./config"
  */
 export const getAdaArticles = async () => {
 
-    try {
-        const response = await fetch(
-            `https://newsapi.org/v2/everything?q=cardano&apiKey=${NEWS_API_KEY}`
-        );
+    const response = await fetch(
+        `https://newsapi.org/v2/everything?q=cardano&apiKey=${NEWS_API_KEY}`
+    );
 
-        // The response that we receive from the API is just a HTTP response. 
-        // To extract the JSON body content from the response, we use the json() method.
-        const json = await response.json();
-        console.log(json);
+    const json = await response.json();
 
-    } catch (error) {
-        console.log(error)
-    }
+    return json;
 }
